@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*
+- suggested height for this section: 600px
+- background color: rgba(232,217,217,.3)
+- "See plans" button background color: #FB3B49
+- "See plans" button box shadow: 8px 8px 0 rgba(251,59,73,.2)*/
+
+body {
+    font-family: "Poppins";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Poppins"
+}
+
+h1 {
+    font-family: "Poppins", "sans-serif";
+    font-size: 9em;
+    text-align: center;
+    font-weight: 600;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#heart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.lower {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchbar-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0;
+}
+
+
+
+.searchbar input {
+    height: 80px;
+    background-color: lightgray;
+    font-size: 18px;
+    border: 1px solid white;
+    color:rgba(0,0,0,.05);
+    margin:0;
+    border: 1px solid black;
+}
+
+.searchbar button {
+    height: 80px;
+    color: white;
+    font-size:1.5em;
+    background-color: #fb3e44;
+    margin: 15px 40px 15px 0;
+    border: 1px solid black
+}
+
+.searchbar a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black
+}
+
+#searchbar-join-btn {
+    border: 0.5px solid darkgrey;
+    border-top: 1px solid black;
+}
+
+#npm {
+    width: 70px;
+    margin-right: 15px;
+    border: 1px solid black
+}
+
+#search-icon {
+    height: 80px;
+    background-color: lightgray;
+    border: 1px solid black
+}
+
+#introduction {
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid black; 
+    padding-bottom: 100px;
+}
+
+#introduction h1 {
+    font-size: 12em;
+    font-weight: bold
+}
+
+#introduction p {
+    text-align: center;
+    font-size: 2.5em;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.intro-btn {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 10px
+   
+
+}
+
+.intro-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 220px;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#red-btn {
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+#white-btn {
+    background-color: white;
+    font-weight: 600;
+}
+
+
+
+
